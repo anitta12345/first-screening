@@ -24,6 +24,7 @@ while choice != 0:
     print("2. SUBTRACTION")
     print("3. MULTIPLICATION")
     print("4. DIVISION")
+    print("5. EXIT")
     choice = int(input("Enter your choice:"))
     if choice == 1:
         print(obj.addition())
@@ -33,5 +34,8 @@ while choice != 0:
         print(obj.multiplication())
     elif choice == 4:
         print(obj.division())
+    elif choice == 5:
+        break    
     else:
         print("Invalid choice")
+        
